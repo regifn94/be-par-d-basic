@@ -32,17 +32,20 @@ public class Main{
         // c = a % b;
         // System.out.println("Hasil modulus " + a + " % " + b + " = " + c);
 
-        String[] arrName = new String[50];
-        List<String> namesBeD = new ArrayList<>();
-        namesBeD.add("Seon");
-        namesBeD.add("Tambengi");
-        namesBeD.add("Montela");
-
-        Map<String, List<String>> intStr = new HashMap<>();
-
-        intStr.put("BE-D", namesBeD);
-
-        System.out.println(intStr.get("BE-D"));
-
+//        String[] arrName = new String[50];
+//        List<String> namesBeD = new ArrayList<>();
+//        namesBeD.add("Seon");
+//        namesBeD.add("Tambengi");
+//        namesBeD.add("Montela");
+//
+//        List<String> semester1 = new ArrayList<>();
+//        semester1.add("Basic Computer Skill");
+//
+//        Map<String, List<String>> intStr = new HashMap<>();
+//
+//        intStr.put("BE-D", namesBeD);
+//        intStr.put("SEM-1", semester1);
+//
+//        System.out.println(intStr.get("SEM-1"));
     }
 }
